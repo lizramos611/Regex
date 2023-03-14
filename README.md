@@ -38,8 +38,11 @@ the { } are also there to designate the minimum and maximum values of the groups
 
 
 ### Bracket Expressions
+the brackets will show characters that are to be mathed to one another. the pattern is allowing you to not need to OR operator if you are using the bracket expression.  this can be used to match a single element of collating elements. 
 
 ### Character Classes
+this is going to be the set of characters that are going to be inside of the []. 
+/d is the characters for matching the email after the @ in order to sign in. 
 
 ### The OR Operator
 
@@ -48,5 +51,3 @@ the { } are also there to designate the minimum and maximum values of the groups
 ### Character Escapes
 
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
