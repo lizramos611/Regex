@@ -46,8 +46,21 @@ this is going to be the set of characters that are going to be inside of the [].
 
 ### The OR Operator
 
+We are using the OR operator and matching the characters
+a,b,c,ab,bc,ac,abc and they are all going to be valid matches. 
+
+
 ### Flags
+
+Flags will be allowed to be outside of the / and its letting you know the start and finihs of the regex. There are 6 types in havascript, some commons ones are g, m, i.
+g: the first match will be returned
+m: multuline mode
+i: case sensitivity search 
 
 ### Character Escapes
 
+using the / will allow the character escapes and it will restore the code to its original meaning. 
+
 ## Author
+Elizabeth Ramos
+https://github.com/lizramos611
